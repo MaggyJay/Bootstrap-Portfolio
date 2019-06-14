@@ -150,14 +150,13 @@ li:not(:last-child){
     margin-left: 10px;
 }
 .message-box {
-    height: 200px;
-    width: 900px;
+    
 }
 .email-box {
-    width: 900px;
+    
 }
 .name-box {
-    width: 900px;
+  
 }
 .submit-button {
     width: 60px;
@@ -165,6 +164,8 @@ li:not(:last-child){
     background-color: #4aaaa5;
     color: white;
     margin: 10px 10px 10px 0px;
+    text-align: center;
+    padding-left: 0px;
 }
 /* portfolio page */
 
