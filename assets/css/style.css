@@ -149,15 +149,7 @@ li:not(:last-child){
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
     margin-left: 10px;
 }
-.message-box {
-    
-}
-.email-box {
-    
-}
-.name-box {
-  
-}
+
 .submit-button {
     width: 60px;
     height: 30px;
