@@ -26,7 +26,7 @@ p:last-child {
 h1, h2, h3 {
   font-family: 'Dosis', sans-serif, Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #CBB3BF;
 }
 
 .container {
@@ -95,11 +95,12 @@ header {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #CBB3BF;
   margin-bottom: 0px;
 }
 
 /* navigation */
+
 
 nav {
   float: right;
@@ -135,6 +136,7 @@ li:not(:last-child) {
 
 /* About Me */
 
+
 #picofme {
   float: left;
   width: 200px;
@@ -154,8 +156,8 @@ li:not(:last-child) {
 .submit-button {
   width: 60px;
   height: 30px;
-  background-color: #4aaaa5;
-  color: white;
+  background-color: #CBB3BF;
+  color: #ffffff;
   margin: 10px 10px 10px 0px;
   text-align: center;
   padding-left: 0px;
@@ -191,7 +193,7 @@ li:not(:last-child) {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: #CBB3BF;
   border-bottom: 0;
 }
 
