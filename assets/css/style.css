@@ -198,6 +198,10 @@ li:not(:last-child) {
   border-bottom: 0;
 }
 
+.portlink {
+  color: #ffffff;
+}
+
 /* footer */
 
 footer {
