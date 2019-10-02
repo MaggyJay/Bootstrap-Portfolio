@@ -145,6 +145,10 @@ li:not(:last-child) {
   margin-right: 25px;
   margin-top: 10px;
 }
+.resumegitinfo{
+  color: #777777;
+}
+
 
 /* Contact Page */
 
