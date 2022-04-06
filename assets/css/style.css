@@ -72,6 +72,11 @@ header {
     max-width: 8%;
 }
 
+#logoid2 {
+    max-height: 50%;
+    max-width: 50%;
+}
+
 /* menu */
 ul#menu {
     position: absolute;
