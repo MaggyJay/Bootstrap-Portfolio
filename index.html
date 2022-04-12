@@ -9,20 +9,15 @@
   <meta name="keywords" content="Client Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 
-  <script>
-    addEventListener("load", function () {
-      setTimeout(hideURLbar, 0);
-    }, false);
-
-    function hideURLbar() {
-      window.scrollTo(0, 1);
-    }
-  </script>
+  <script type="module" src="/assets/script.js"></script>
+  <!-- Needing to make script type module so we can import animate.css -->
 
   <!-- css files -->
   <link href="assets/css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
   <link href="assets/css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
   <link href="assets/css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
   <!-- //css files -->
 
   <!-- google fonts -->
@@ -34,6 +29,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
+
+    <!-- Trigger/Open The Modal -->
+<!-- <button id="myBtn">Open Modal</button> -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal animate__animated animate__backInDown">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close animate__animated">&times;</span>
+    <p><b>Hiya!</b> This is my portfolio from my bootcamp days that I keep up-to-date. I'm currently in the process of designing, wireframing, and scoping my new one. Some other things I'm working on currently as of <em>04/12/22</em> are <br>
+    <br>
+    <ul>
+      <li><b>*A Tarot API to use for future projects</li>
+      <li>*Small affirmation app</b></li>
+    </ul>
+    <br>
+  <u>Things not coding related: </u>
+<ul>
+  <li><b>Adobe Photoshop & Illustrator skills: </b>Really wanting to get good at editing to help create stickers, coolie designs, etc for clients</li>
+  <li><b>Pixel Art: </b>because sprites + JS game engines/libraries = some really cool stuff</li>
+</ul>
+<img class = "modalimg" src="/assets/images/kittychibi.png">
+<a href="mailto:magdalene809@gmail.com" class="interviewlink" target="_blank">Ask me how it's going in an interview </a>
+
+</p>
+
+
+  </div>
+
+</div>
 
   <!-- header -->
   <header>
